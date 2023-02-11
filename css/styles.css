@@ -77,6 +77,10 @@ a:hover{
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    transition-duration:.2s;
+}
+.profile-pic:hover{
+    transform:scale(1.02);
 }
 .code-img{
     width: 25%;
@@ -103,7 +107,10 @@ a:hover{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    
+    transition-duration:.2s;
+}
+.skill-row:hover{
+    transform:scale(1.07);
 }
 .btn {
     background: #11cdd4;
